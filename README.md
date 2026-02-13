@@ -43,3 +43,7 @@ By creating, modifying, and deleting files on the Desktop, I verified the agent'
 ## 4. Conclusion
 This lab successfully demonstrates the "Detect, Analyze, and Respond" lifecycle. By configuring granular monitoring and analyzing security telemetry, I established end-to-end visibility over an endpoint's security posture.
 
+
+---
+## Disclaimer
+All activities demonstrated in this laboratory were performed within a controlled, isolated virtual environment. These experiments were conducted for educational purposes to understand defensive security operations and threat detection methodologies. Unauthorized access to computer systems is illegal and unethical.
