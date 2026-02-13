@@ -16,7 +16,7 @@ This lab demonstrates the deployment of a Security Operations Center (SOC) envir
 ## 1. Vulnerability Management
 Upon deploying the Wazuh agent, I initiated an automated vulnerability scan. The dashboard identified **2 Critical** and **195 High-severity** vulnerabilities, allowing for prioritized remediation based on the global CVE database.
 
-![Vulnerability Dashboard](./vulnerability_scan.PNG)
+![Vulnerability Dashboard](./vulnerability_scan.pNG)
 
 ## 2. RDP Brute Force Detection
 I simulated a dictionary-based brute force attack against the Windows endpoint using **Hydra**. 
@@ -41,9 +41,11 @@ By creating, modifying, and deleting files on the Desktop, I verified the agent'
 ![FIM Dashboard](./fim_dashboard.png)
 
 ## 4. Conclusion
-This lab successfully demonstrates the "Detect, Analyze, and Respond" lifecycle. By configuring granular monitoring and analyzing security telemetry, I established end-to-end visibility over an endpoint's security posture.<img width="1920" height="892" alt="fim_dashboard" src="https://github.com/user-attachments/assets/52bf4a73-8c41-4816-af63-2ec1fdd93578" />
-<img width="1920" height="892" alt="fim_event_log" src="https://github.com/user-attachments/assets/2a3c3f6f-f86c-472b-985e-3c6d08b3092f" />
-![ossec config](https://github.com/user-attachments/assets/0fffdcb0-91f2-4e8a-b8cb-0ea8ddabbc63)
-<img width="1920" height="892" alt="attacker_telemetry" src="https://github.com/user-attachments/assets/c7db259a-ba24-402c-a68b-cb10dca8c431" />
-<img width="1920" height="892" alt="brute_force_alerts" src="https://github.com/user-attachments/assets/e3c8f016-d100-4c51-bf68-1151485e3d6d" />
-<img width="1920" height="892" alt="vulnerability_scan" src="https://github.com/user-attachments/assets/2971931d-9234-43a5-ad2e-7ec6c491bdcc" />
+This lab successfully demonstrates the "Detect, Analyze, and Respond" lifecycle. By configuring granular monitoring and analyzing security telemetry, I established end-to-end visibility over an endpoint's security posture.
+
+<img width="1920" height="892" alt="fim_dashboard.png" src="https://github.com/user-attachments/assets/52bf4a73-8c41-4816-af63-2ec1fdd93578" />
+<img width="1920" height="892" alt="fim_event_log.png" src="https://github.com/user-attachments/assets/2a3c3f6f-f86c-472b-985e-3c6d08b3092f" />
+![ossec config.jpeg](https://github.com/user-attachments/assets/0fffdcb0-91f2-4e8a-b8cb-0ea8ddabbc63)
+<img width="1920" height="892" alt="attacker_telemetry.png" src="https://github.com/user-attachments/assets/c7db259a-ba24-402c-a68b-cb10dca8c431" />
+<img width="1920" height="892" alt="brute_force_alerts.png" src="https://github.com/user-attachments/assets/e3c8f016-d100-4c51-bf68-1151485e3d6d" />
+<img width="1920" height="892" alt="vulnerability_scan.png" src="https://github.com/user-attachments/assets/2971931d-9234-43a5-ad2e-7ec6c491bdcc" />
