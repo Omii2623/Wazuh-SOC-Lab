@@ -16,7 +16,7 @@ This lab demonstrates the deployment of a Security Operations Center (SOC) envir
 ## 1. Vulnerability Management
 Upon deploying the Wazuh agent, I initiated an automated vulnerability scan. The dashboard identified **2 Critical** and **195 High-severity** vulnerabilities, allowing for prioritized remediation based on the global CVE database.
 
-![Vulnerability Dashboard](./vulnerability_scan.png)
+![Vulnerability Dashboard](./vulnerability_scan.PNG)
 
 ## 2. RDP Brute Force Detection
 I simulated a dictionary-based brute force attack against the Windows endpoint using **Hydra**. 
